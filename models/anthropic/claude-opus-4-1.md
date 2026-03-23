@@ -1,8 +1,8 @@
-# Claude Opus 4.1 — via EvoLink
+# Claude Opus 4.1
 
-**Provider:** `evolink-anthropic`
-**Model ID:** `evolink-anthropic/claude-opus-4-1-20250805`
-**API Type:** Anthropic Messages
+**Provider:** `anthropic`
+**Model ID:** `anthropic/claude-opus-4-1-20250805`
+**API Type:** anthropic-messages
 **Base URL:** `https://direct.evolink.ai`
 
 ## OpenClaw Configuration
@@ -11,10 +11,10 @@
 {
   "models": {
     "providers": {
-      "evolink-anthropic": {
+      "anthropic": {
         "api": "anthropic-messages",
         "baseUrl": "https://direct.evolink.ai",
-        "apiKey": "Your EvoLink API Key",
+        "apiKey": "YOUR_API_KEY",
         "models": [
           { "id": "claude-opus-4-1-20250805", "name": "Claude Opus 4.1" }
         ]
@@ -27,9 +27,5 @@
 ## Set as Default
 
 ```bash
-openclaw models set evolink-anthropic/claude-opus-4-1-20250805
+openclaw models set anthropic/claude-opus-4-1-20250805
 ```
-
-## Get API Key
-
-[Sign up at EvoLink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)

@@ -1,13 +1,9 @@
-# EvoLink Auto — Google Provider
+# EvoLink Auto
 
-**Provider:** `evolink-google`
-**Model ID:** `evolink-google/evolink/auto`
-**API Type:** Google Generative AI
+**Provider:** `google`
+**Model ID:** `google/evolink/auto`
+**API Type:** google-generative-ai
 **Base URL:** `https://direct.evolink.ai/v1beta`
-
-## What is EvoLink Auto?
-
-Smart Model Routing — automatically selects the best Gemini model based on your request.
 
 ## OpenClaw Configuration
 
@@ -15,10 +11,10 @@ Smart Model Routing — automatically selects the best Gemini model based on you
 {
   "models": {
     "providers": {
-      "evolink-google": {
+      "google": {
         "api": "google-generative-ai",
         "baseUrl": "https://direct.evolink.ai/v1beta",
-        "apiKey": "Your EvoLink API Key",
+        "apiKey": "YOUR_API_KEY",
         "models": [
           { "id": "evolink/auto", "name": "EvoLink Auto" }
         ]
@@ -33,9 +29,5 @@ Smart Model Routing — automatically selects the best Gemini model based on you
 ## Set as Default
 
 ```bash
-openclaw models set evolink-google/evolink/auto
+openclaw models set google/evolink/auto
 ```
-
-## Get API Key
-
-[Sign up at EvoLink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)

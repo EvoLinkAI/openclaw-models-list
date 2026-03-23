@@ -1,8 +1,8 @@
-# Kimi K2 Thinking Turbo — via EvoLink
+# Kimi K2 Thinking Turbo
 
-**Provider:** `evolink-openai`
-**Model ID:** `evolink-openai/kimi-k2-thinking-turbo`
-**API Type:** OpenAI Completions (Moonshot Kimi)
+**Provider:** `moonshot`
+**Model ID:** `moonshot/kimi-k2-thinking-turbo`
+**API Type:** openai-completions
 **Base URL:** `https://direct.evolink.ai/v1`
 
 ## OpenClaw Configuration
@@ -11,10 +11,10 @@
 {
   "models": {
     "providers": {
-      "evolink-openai": {
+      "moonshot": {
         "api": "openai-completions",
         "baseUrl": "https://direct.evolink.ai/v1",
-        "apiKey": "Your EvoLink API Key",
+        "apiKey": "YOUR_API_KEY",
         "models": [
           { "id": "kimi-k2-thinking-turbo", "name": "Kimi K2 Thinking Turbo" }
         ]
@@ -27,9 +27,5 @@
 ## Set as Default
 
 ```bash
-openclaw models set evolink-openai/kimi-k2-thinking-turbo
+openclaw models set moonshot/kimi-k2-thinking-turbo
 ```
-
-## Get API Key
-
-[Sign up at EvoLink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)

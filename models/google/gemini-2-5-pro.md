@@ -1,8 +1,8 @@
-# Gemini 2.5 Pro — via EvoLink
+# Gemini 2.5 Pro
 
-**Provider:** `evolink-google`
-**Model ID:** `evolink-google/gemini-2.5-pro`
-**API Type:** Google Generative AI
+**Provider:** `google`
+**Model ID:** `google/gemini-2.5-pro`
+**API Type:** google-generative-ai
 **Base URL:** `https://direct.evolink.ai/v1beta`
 
 ## OpenClaw Configuration
@@ -11,10 +11,10 @@
 {
   "models": {
     "providers": {
-      "evolink-google": {
+      "google": {
         "api": "google-generative-ai",
         "baseUrl": "https://direct.evolink.ai/v1beta",
-        "apiKey": "Your EvoLink API Key",
+        "apiKey": "YOUR_API_KEY",
         "models": [
           { "id": "gemini-2.5-pro", "name": "Gemini 2.5 Pro" }
         ]
@@ -29,9 +29,5 @@
 ## Set as Default
 
 ```bash
-openclaw models set evolink-google/gemini-2.5-pro
+openclaw models set google/gemini-2.5-pro
 ```
-
-## Get API Key
-
-[Sign up at EvoLink.ai](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
