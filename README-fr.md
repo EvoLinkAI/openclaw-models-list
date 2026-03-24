@@ -4,6 +4,20 @@
 
 > Une liste organisée des meilleurs modèles d'IA, avec des configurations prêtes à l'emploi pour OpenClaw.
 
+<p align="center">
+  <strong>🌐 Languages：</strong>
+  <a href="README.md">English</a> |
+  <a href="README-zh-CN.md">简体中文</a> |
+  <a href="README-zh-TW.md">繁體中文</a> |
+  <a href="README-es.md">Español</a> |
+  <a href="README-ja.md">日本語</a> |
+  <a href="README-ko.md">한국어</a> |
+  <a href="README-tr.md">Türkçe</a> |
+  <a href="README-fr.md">Français</a> |
+  <a href="README-de.md">Deutsch</a> |
+  <a href="README-ru.md">Русский</a>
+</p>
+
 ---
 
 ## Introduction
