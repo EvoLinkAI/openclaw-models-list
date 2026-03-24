@@ -118,4 +118,4 @@ openclaw gateway status
 openclaw agent --agent main -m "hi" --json
 ```
 
-📖 Полное руководство по настройке: [docs.openclaw.ai](https://docs.openclaw.ai)
+📖 Полное руководство по настройке: [docs.evolink.ai](https://docs.evolink.ai/en/integration-guide/openclaw?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
