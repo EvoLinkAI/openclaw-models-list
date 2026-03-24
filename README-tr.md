@@ -90,7 +90,7 @@ Bu depo, OpenClaw ile entegrasyon için mevcut olan ana AI modellerini sağlayı
 
 ### Önkoşullar
 1. **Node.js 22+** — [İndir](https://nodejs.org/en/download)
-2. Tercih ettiğiniz sağlayıcıdan **API Anahtarı**.
+2. **EvoLink API Key** — [Ücretsiz kaydol](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
 
 ### Adım 1: OpenClaw'u Yükleyin
 
@@ -100,7 +100,7 @@ npm install -g openclaw@latest
 
 ### Adım 2: Modelleri Yapılandırın
 
-`~/.openclaw/openclaw.json` dosyasını düzenleyin ve seçtiğiniz sağlayıcıyı yapılandırın. Şema ayrıntıları için [belgelere](https://docs.openclaw.ai) bakın.
+`~/.openclaw/openclaw.json` dosyasını düzenleyin ve model yapılandırmasını ekleyin. Her model dosyası kopyalayıp yapıştırmaya hazır tam yapılandırma içerir.
 
 > ⚠️ Gemini için, `403 Forbidden` hatalarını önlemek amacıyla `baseUrl`, `/v1beta` içermelidir.
 
