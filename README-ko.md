@@ -90,7 +90,7 @@
 
 ### 전제 조건
 1. **Node.js 22+** — [다운로드](https://nodejs.org/en/download)
-2. 선호하는 제공자의 **API 키**.
+2. **EvoLink API Key** — [무료 가입하기](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
 
 ### 단계 1: OpenClaw 설치
 
@@ -100,7 +100,7 @@ npm install -g openclaw@latest
 
 ### 단계 2: 모델 설정
 
-`~/.openclaw/openclaw.json` 파일을 편집하여 선택한 제공자를 설정합니다. 스키마 세부 사항은 [문서](https://docs.openclaw.ai)를 참조하십시오.
+`~/.openclaw/openclaw.json` 파일을 편집하여 모델 설정을 추가합니다. 각 모델 파일에는 복사하여 붙여넣을 수 있는 완전한 설정이 포함되어 있습니다.
 
 > ⚠️ Gemini 모델의 경우, `403 Forbidden` 오류를 방지하기 위해 `baseUrl`에 `/v1beta`가 포함되어야 합니다.
 
