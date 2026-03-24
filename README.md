@@ -100,7 +100,7 @@ npm install -g openclaw@latest
 
 ### Step 2: Configure Models
 
-Edit `~/.openclaw/openclaw.json` and configure your chosen provider. See the [documentation](https://docs.openclaw.ai) for schema details.
+Edit `~/.openclaw/openclaw.json` and add the model configuration. Each model file includes the full copy-paste configuration.
 
 > ⚠️ For Gemini, `baseUrl` must include `/v1beta` to avoid `403 Forbidden` errors.
 
@@ -118,5 +118,5 @@ openclaw gateway status
 openclaw agent --agent main -m "hi" --json
 ```
 
-📖 Full setup guide: [docs.openclaw.ai](https://docs.openclaw.ai)
+📖 Full setup guide: [docs.evolink.ai](https://docs.evolink.ai/en/integration-guide/openclaw?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
 
