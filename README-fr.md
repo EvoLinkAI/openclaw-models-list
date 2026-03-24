@@ -90,7 +90,7 @@ Ce dépôt liste les principaux modèles d'IA disponibles pour une intégration 
 
 ### Prérequis
 1. **Node.js 22+** — [Télécharger](https://nodejs.org/en/download)
-2. **Clé API** de votre fournisseur préféré.
+2. **EvoLink API Key** — [Inscription gratuite](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
 
 ### Étape 1 : Installer OpenClaw
 
@@ -100,7 +100,7 @@ npm install -g openclaw@latest
 
 ### Étape 2 : Configurer les modèles
 
-Modifiez `~/.openclaw/openclaw.json` et configurez le fournisseur choisi. Consultez la [documentation](https://docs.openclaw.ai) pour plus de détails sur le schéma.
+Modifiez `~/.openclaw/openclaw.json` et ajoutez la configuration du modèle. Chaque fichier de modèle contient la configuration complète prête à copier-coller.
 
 > ⚠️ Pour Gemini, `baseUrl` doit inclure `/v1beta` pour éviter les erreurs `403 Forbidden`.
 
