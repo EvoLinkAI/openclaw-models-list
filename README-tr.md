@@ -118,4 +118,4 @@ openclaw gateway status
 openclaw agent --agent main -m "hi" --json
 ```
 
-📖 Tam kurulum kılavuzu: [docs.openclaw.ai](https://docs.openclaw.ai)
+📖 Tam kurulum kılavuzu: [docs.evolink.ai](https://docs.evolink.ai/en/integration-guide/openclaw?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
