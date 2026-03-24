@@ -90,7 +90,7 @@
 
 ### 前置要求
 1. **Node.js 22+** — [下载地址](https://nodejs.org/en/download)
-2. 您所选厂商的 **API 密钥**。
+2. **EvoLink API Key** — [免费注册获取](https://evolink.ai/signup?utm_source=github&utm_medium=readme&utm_campaign=openclaw-models-list)
 
 ### 步骤 1：安装 OpenClaw
 
@@ -100,7 +100,7 @@ npm install -g openclaw@latest
 
 ### 步骤 2：配置模型
 
-编辑 `~/.openclaw/openclaw.json`，添加对应的厂商配置。可参考 [官方文档](https://docs.openclaw.ai) 查看完整配置说明。
+编辑 `~/.openclaw/openclaw.json`，添加对应的厂商配置。每个模型文件中已包含完整的复制粘贴配置。
 
 > ⚠️ 针对 Gemini 模型，`baseUrl` 必须包含 `/v1beta` 后缀，否则会出现 `403 Forbidden` 错误。
 
