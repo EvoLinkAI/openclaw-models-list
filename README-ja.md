@@ -1,6 +1,6 @@
 # OpenClaw モデル
 
-[![OpenClaw Models](banner.jpg)](https://evolink.ai/signup?utm_source=github&utm_medium=banner&utm_campaign=openclaw-models-list)
+[![OpenClaw Models](banner.jpg)](https://evolink.ai/minimax-m2-5)
 
 > OpenClaw 用の即戦力設定を含む、厳選されたトップクラスの AI モデルリスト。
 
@@ -81,8 +81,8 @@
 
 | モデル | ID | ファイル |
 |-------|----|------|
-| Kimi K2 Thinking | `moonshot/kimi-k2-thinking` | [kimi-k2-thinking.md](models/moonshot/kimi-k2-thinking.md) |
-| Kimi K2 Thinking Turbo | `moonshot/kimi-k2-thinking-turbo` | [kimi-k2-thinking-turbo.md](models/moonshot/kimi-k2-thinking-turbo.md) |
+| Kimi K2 Thinking | `moonshot/kimi-k2-thinking` | [kimi-k2-thinking.md](https://evolink.ai/kimi-k2-thinking) |
+| Doubao Seed 2.0 | `bytedance/seed-2-0` | [seed-2-0.md](https://evolink.ai/seed-2-0) |
 
 ---
 
